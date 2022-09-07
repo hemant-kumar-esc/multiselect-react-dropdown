@@ -2,6 +2,7 @@ import React from "react";
 
 export interface IMultiselectProps {
     options: any,
+    optionImages: any,
     disablePreSelectedValues?: boolean,
     selectedValues?: any,
     isObject?: boolean,

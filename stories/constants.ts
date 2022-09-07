@@ -9,6 +9,15 @@ export const options = [
   { key: "Option 6", cat: "Group 2" },
   { key: "Option 7", cat: "Group 2" }
 ];
+export const optionImages = [
+  { src: "https://picsum.photos/40" },
+  { src: "https://picsum.photos/20" },
+  { src: "https://picsum.photos/60" },
+  { src: "https://picsum.photos/20" },
+  { src: "https://picsum.photos/20" },
+  { src: "https://picsum.photos/30" },
+  { src: "https://picsum.photos/20" }
+];
 
 export const selectedValues = [
   { key: "Option 1", cat: "Group 1" },

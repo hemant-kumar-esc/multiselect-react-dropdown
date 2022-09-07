@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import { Story, Meta } from '@storybook/react';
 
 import MultiSelect from "../src";
-import { options, flatArray, selectedValues } from "./constants";
+import { options, optionImages, flatArray, selectedValues } from "./constants";
 import { IMultiselectProps } from "../src/multiselect/interface";
 
 const style = {
@@ -37,6 +37,7 @@ FlatArray.args = {
 export const ArrrayOfObjects = Template.bind({});
 ArrrayOfObjects.args = {
   options,
+  optionImages,
   displayValue: 'key'
 };
 
@@ -88,6 +89,7 @@ HideSelectedList.args = {
 export const Grouping = Template.bind({});
 Grouping.args = {
   options,
+  optionImages,
   displayValue: 'key',
   showCheckbox: true,
   groupBy: "cat"
